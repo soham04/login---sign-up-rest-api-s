@@ -1,0 +1,16 @@
+{
+  "name": "soham",
+  "version": "1.0.0",
+  "description": "This project consist of rest API's build in node-js using express and mongo-db for doing login, signup as well as to show the profile of the user and then finally logging out the user Here first simple sign-up route has been created, Here user have to provide his just email and password, you can change this in user schema according  to your need, one email can be registered only once, if he tried to register again auth failed will be shown, then for logging up he has to  provide correct credentials for login,if any of the 2 things is wrong he won't be able to login, then i am generating here a jwt token, which will only expire when the person logged out.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.1"
+  }
+}
